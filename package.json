@@ -2,14 +2,15 @@
   "name": "headlamp",
   "displayName": "Headlamp vscode extension",
   "description": "Headlamp is a Kubernetes extensible UI available on Desktop and in cluster. This extension helps with using Headlamp and with development of plugins for Headlamp.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "headlamp",
+  "icon": "images/headlamp-logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/headlamp-k8s/vscode-extension-headlamp.git"
   },
   "engines": {
-    "vscode": "^1.88.0"
+    "vscode": "^1.87.0"
   },
   "categories": [
     "Other",
@@ -38,7 +39,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.88.0",
+    "@types/vscode": "^1.87.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
