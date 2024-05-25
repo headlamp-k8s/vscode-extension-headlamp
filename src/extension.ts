@@ -38,12 +38,6 @@ export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand(
       "headlamp.createNewPlugin",
       () => {
-        // The code you place here will be executed every time your command is executed
-        // Display a message box to the user
-        vscode.window.showInformationMessage(
-          "Hello World from Headlamp vscode extension!"
-        );
-
         vscode.window
           .showInputBox({
             prompt: "What is the name of the plugin you want to make?",
