@@ -70,7 +70,14 @@ export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand(
       "headlamp.runHeadlamp",
       () => {
-        // import fs
+        // If there are no workspaces ask them to open a folder first
+        if (!vscode.workspace.workspaceFolders?.[0]) {
+          vscode.window.showErrorMessage(
+            "Please open a vscode folder before cloning Headlamp."
+          );
+          return;
+        }
+
         const fs = require("fs");
         const path = require("path");
 

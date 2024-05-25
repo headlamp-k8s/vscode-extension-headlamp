@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.1.1
+
+- README: Add install and usage images and explaination
+- 
+- 
 
 ## 0.1.0
 
