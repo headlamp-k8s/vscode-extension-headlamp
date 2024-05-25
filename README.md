@@ -4,15 +4,24 @@ Headlamp is a Kubernetes extensible UI available on Desktop and in cluster. This
 
 This is a preview release.
 
+## Install the Headlamp extension
+
+<img src="images/headlamp-vscode-install.png" alt="Headlamp VSCode Extension Installation" width=320>
+
 ## Features
 
 Access these commands from the command pallet in vscode.
 
-### Create new Headlamp Plugin
+Use ctrl+p (cmd+p on mac) to bring up the command pallet, and enter "headlamp" to see the Headlamp related commands.
+
+<img src="images/headlamp-vscode-run-cmd.png" alt="Using the commands" width=640>
+
+
+### Command: Create new Headlamp Plugin
 
 There is a command to create a new headlamp plugin.
 
-### Run headlamp locally, git clone it if needed
+### Command: Run headlamp locally, git clone it if needed
 
 There is a command to run Headlamp in development mode.
 
