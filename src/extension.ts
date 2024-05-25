@@ -104,7 +104,19 @@ export function activate(context: vscode.ExtensionContext) {
         if (!(currentFolder && isHeadlampFolder(currentFolder))) {
           headlampFolder = path.join(currentFolder, "headlamp");
           if (!isHeadlampFolder(headlampFolder)) {
-            createHeadlampFolder = true;
+            // Check if home folder has a headlamp folder
+            // Note: we create the headlampFolder the current folder if it's not found
+            //       in the home folder
+            const headlampFolderHome = path.join(
+              process.env.HOME || "~",
+              "headlamp"
+            );
+            if (!isHeadlampFolder(headlampFolderHome)) {
+              createHeadlampFolder = true;
+            } else {
+              // headlamp will be run from ~/headlamp
+              headlampFolder = headlampFolderHome;
+            }
           }
         }
 
