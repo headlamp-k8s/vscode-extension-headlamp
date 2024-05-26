@@ -2,7 +2,7 @@
   "name": "headlamp",
   "displayName": "Headlamp vscode extension",
   "description": "Headlamp is a Kubernetes extensible UI available on Desktop and in cluster. This extension helps with using Headlamp and with development of plugins for Headlamp.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "headlamp",
   "icon": "images/headlamp-logo.png",
   "repository": {
