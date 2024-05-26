@@ -41,6 +41,18 @@ https://github.com/headlamp-k8s/vscode-extension-headlamp/issues
 
 Users appreciate release notes as you update your extension.
 
+### 0.1.3
+
+Small bug fix release with improvements to creating a plugin command and cloning headlamp command.
+
+### 0.1.2
+
+Small bug fixes.
+
+### 0.1.1
+
+Small bug fixes.
+
 ### 0.1.0
 
 Initial release of Headlamp vscode extension.

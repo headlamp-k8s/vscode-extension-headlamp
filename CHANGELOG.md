@@ -1,10 +1,12 @@
 # Change Log
 
-## 0.1.1
+## 0.1.3
 
-- README: Add install and usage images and explaination
-- 
-- 
+- Bug fixes and small improvements
+- README: Add install and usage images with explanation
+- addRunHeadlampCommand: Look in home/headlamp for headlamp too
+- addRunHeadlampCommand: Check if workspace is open yet
+- createNewPlugin: Remove debugging message
 
 ## 0.1.0
 
